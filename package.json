@@ -1,0 +1,26 @@
+{
+  "name": "jsincss-custom-specificity",
+  "version": "0.0.1",
+  "description": "A custom specificity plugin for jsincss",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tomhodgins/jsincss-custom-specificity.git"
+  },
+  "keywords": [
+    "jsincss",
+    "custom",
+    "specificity",
+    "selector",
+    "css"
+  ],
+  "author": "Tommy Hodgins",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/tomhodgins/jsincss-custom-specificity/issues"
+  },
+  "homepage": "https://github.com/tomhodgins/jsincss-custom-specificity#readme"
+}
