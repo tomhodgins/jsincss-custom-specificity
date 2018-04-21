@@ -1,4 +1,4 @@
-module.exports = (selector, number, rule) => {
+function specificity(selector, number, rule) {
 
   return Array.from(document.querySelectorAll(selector))
 
