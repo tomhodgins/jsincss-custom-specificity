@@ -7,7 +7,7 @@ module.exports = (selector, number, rule) => {
       const attr = (selector + number).replace(/\W/g, '')
 
       const partial = `[data-specificity-${attr}="${count}"]`
-       const repeated = partial + partial.repeat(number)
+      const repeated = partial + partial.repeat(number)
 
       tag.setAttribute(`data-specificity-${attr}`, count)
       styles += `${repeated} { ${rule} }\n`
