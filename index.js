@@ -11,8 +11,6 @@ module.exports = (selector, number, rule) => {
 
       tag.setAttribute(`data-specificity-${attr}`, count)
       styles += `${repeated} { ${rule} }\n`
-      count++
-
       return styles
 
     }, '')
